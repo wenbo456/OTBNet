@@ -1,4 +1,4 @@
-r""" MSDNet training (validation) code """
+r""" OTBNet training (validation) code """
 import argparse
 import os
 import torch.optim as optim
@@ -6,7 +6,7 @@ import torch.nn as nn
 
 import torch
 
-from model.otb import MSDNet
+from model.otb import OTBNet
 from common.logger import Logger, AverageMeter
 from common.evaluation import Evaluator
 from common import utils
